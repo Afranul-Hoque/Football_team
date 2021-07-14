@@ -71,3 +71,62 @@ body{
    margin-bottom: 86px;
 }
 
+
+/*------------
+           Top player list and details 
+                        -----------------*/
+.tournament-hero
+{
+    margin-top:70px;
+    display: flex;
+    flex-direction:column;
+     align-items: center;
+    
+}
+.top-player
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap:30px;
+    
+}
+.player-details
+{
+    background-color: #FFFF;
+    width: 300px;
+    height: 474px;
+    padding:15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     
+}
+.player-image img
+{
+    width: 300px;
+    height: 256px;
+    
+}
+.player-image, .player-info
+{
+    width: 300px;
+    height: 154px;
+}
+
+.player-name
+{
+    color:#18191F;
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.player-info p 
+{
+    color:#6C6C6C;
+    font-style: normal;
+   
+   
+}
+
+
+
