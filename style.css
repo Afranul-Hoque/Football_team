@@ -60,16 +60,43 @@ body{
 .cover-img
 {
     width: 50%;
+    display: flex;
 }
 
 .banner-img 
 {
-    Width : 556px;
-   Height : 438px;
-   margin-top: 153px;
+    Width : 300px;
+   Height : 500px;
+   margin-top: 133px;
    margin-right: 140px;
    margin-bottom: 86px;
 }
+.ball-image
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 500px;
+    transition: transform 1s ease-out 0.3s;
+    position: relative;
+}
+
+
+.cover-img:hover .banner-img {
+    transform: rotate(10deg);
+    transform-origin: top right;
+
+}
+
+.ball-image {
+    
+    transition: transform 0.3s ease-in;
+    
+}
+
+.cover-img:hover .ball-image {
+    transform: translate(-940px, -190px);
+}
+
 
 
 /*------------
@@ -250,8 +277,8 @@ body{
 
 }
 
-.winner-flag:hover .winner-image {
-    transform: scale(1) skew(10deg);
+.winner:hover .winner-image {
+    transform: scale(1) skew(5deg);
     transition: transform 2s ease-in-out;
 }
 
