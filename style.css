@@ -1,0 +1,73 @@
+/* Google fonts poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*---------
+          Some utilities styles 
+                         ----------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/* ---------
+         conmebol copa America 
+                        --------- */
+.conmebol
+{
+    Width: 1440px;
+    Height:677px;
+    background-color: #2D25A0;
+}
+.copa-america
+{
+    display: flex;
+   
+}
+
+.copa-america-details
+{
+    width:50%;
+    margin-top: 170px;
+    margin-left: 140px;
+    margin-right: 102px;
+    
+    
+}
+.copa-heading
+{
+    color:#FFFF;
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+
+.link-text, a{
+     color:#FFFF;
+      text-decoration: none;
+      background-color: #E02C6D;
+      font-weight: 500;
+      padding: 10px 24px;
+      margin-bottom: 169px;
+}
+.link-text, i
+{
+    margin-left:8px;
+    
+}
+
+.cover-img
+{
+    width: 50%;
+}
+
+.banner-img 
+{
+    Width : 556px;
+   Height : 438px;
+   margin-top: 153px;
+   margin-right: 140px;
+   margin-bottom: 86px;
+}
+
