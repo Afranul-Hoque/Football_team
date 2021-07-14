@@ -118,7 +118,9 @@ body{
     font-size: 28px;
     margin-bottom: 0px;
     margin-top: 5px;
+    
 }
+
 
 .player-info p 
 {
@@ -130,3 +132,63 @@ body{
 
 
 
+/*----------
+ UEFA Euro Cup 2021 
+            ------------  */
+
+
+  .UEFA
+    {
+        Width: 1440px;
+        Height:677px;
+        
+    }
+    .UEFA-euro
+    {
+        display: flex;
+       
+    }
+    
+    .UEFA-euro-details
+    {
+        width:50%;
+        margin-top: 170px;
+        margin-left: 140px;
+        margin-right: 102px;
+        
+        
+    }
+    .euro-heading
+    {
+        
+        font-size: 64px;
+        margin-bottom: 27px;
+    }
+    .Euro-short-details
+    {
+        margin-bottom: 40px;
+    }
+    
+     .banner-img2
+{
+    Width : 400px;
+   Height : 400px;
+   margin-top: 200px;
+   margin-right: 140px;
+   margin-bottom: 86px;
+   border-radius:20px;
+}
+
+
+
+/*----------------------
+                  UEFA Euro Cup Best 12 player list and details
+                                             ---------------------- */
+
+
+.best-player
+{
+    margin-bottom: 20px;
+    color: rgb(27, 6, 105);
+}                                           
+            
