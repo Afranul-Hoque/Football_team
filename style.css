@@ -338,3 +338,133 @@ body{
 }
                                         
 
+/*--------------------
+                 Media Query 
+                       ------------------*/
+
+
+
+ /*------------------- First mobile device------------------------ */
+
+
+
+
+ @media only screen and (max-width:688px)
+ {
+
+.conmebol{
+    height: 100%;
+}
+ .copa-america
+ {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-right: 50px;
+    width: 100%;
+ }
+
+ .copa-america-details
+ {
+     margin-left: 5px;
+     
+ }
+
+ .copa-heading
+{
+    
+    font-size: 40px;
+    margin-bottom: 27px;
+}
+
+.top-player
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap:30px;
+    margin-top:400px;
+}
+
+
+.UEFA-euro
+{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-right: 50px;
+    width: 100%;
+   
+}
+
+.UEFA-euro-details
+{
+    margin-left: 5px;
+    
+}
+.euro-heading
+{
+    
+    font-size: 34px;   
+}
+
+.Euro-short-details
+{
+    display: none;
+}
+.banner-img2{
+    margin-top:40px;
+}
+
+.tournament-hero{
+    margin-top: 70px;
+}
+.best-player{
+    margin-left: 10px;
+}
+.top-player{
+    margin-top: 50px;
+}
+
+.celebration h1
+{
+    font-size: 20px;
+}
+
+.winner{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.winner-country
+{
+   display:grid;
+   grid-template-columns: repeat(1, 1fr);
+   align-items: center;
+   margin-right: 50px;
+   width: 100%;
+}
+
+.winner-description
+{
+    display: none;
+}
+
+.footer-work
+{
+    margin-top: 40px;
+}
+
+.footer-image img {
+    width: 90%;
+    height: 110px;
+    
+    margin: 10px;
+
+}
+ }
+
+
+
+
+
