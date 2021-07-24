@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+
+
 /*---------
           Some utilities styles 
                          ----------*/
@@ -168,7 +170,7 @@ body{
     {
         Width: 1440px;
         Height:677px;
-        
+        overflow: hidden;
     }
     .UEFA-euro
     {
@@ -231,6 +233,7 @@ body{
 .celebration
 {
     margin-top:100px;
+    overflow:hidden;
     
 }                                                      
 
@@ -352,6 +355,9 @@ body{
  @media only screen and (max-width:688px)
  {
 
+    ::-webkit-scrollbar{
+        display: none;
+    }
 .conmebol{
     height: 100%;
 }
