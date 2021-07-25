@@ -12,7 +12,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
     padding:0;
-    
+    overflow-x:hidden;
+   
 }
 
 /* ---------
@@ -356,9 +357,11 @@ body{
  @media only screen and (max-width:688px)
  {
 
-    ::-webkit-scrollbar{
-        display: none;
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
     }
+  
 .conmebol{
     height: 100%;
 }
@@ -391,6 +394,12 @@ body{
     grid-row-gap: 27px;
     grid-column-gap:30px;
     margin-top:400px;
+}
+.ronaldo-img
+{
+    width:45%;
+    margin-left: 10px;
+    
 }
 
 
@@ -468,6 +477,14 @@ body{
     
     margin: 10px;
 
+}
+
+.celebration
+{
+    
+     overflow: hidden;
+    margin-right:10px;
+    
 }
  }
 
